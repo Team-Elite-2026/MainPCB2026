@@ -1,0 +1,10 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "4554 (1)")(type "KiCad")(uri "/home/aniket/Documents/2025SoccerOpen/MainPCB/4554 (1)")(options "")(descr ""))
+  (lib (name "Custom")(type "KiCad")(uri "/home/aniket/Documents/2025SoccerOpen/MainPCB/Custom.pretty")(options "")(descr ""))
+  (lib (name "SlideSW")(type "KiCad")(uri "/home/aniket/Documents/2025SoccerOpen/MainPCB/SlideSW.pretty")(options "")(descr ""))
+  (lib (name "RockerSwitch")(type "KiCad")(uri "/home/aniket/Documents/2025SoccerOpen/MainPCB/RockerSwitch.pretty")(options "")(descr ""))
+  (lib (name "MotorDriver")(type "KiCad")(uri "/home/aniket/Documents/2025SoccerOpen/MainPCB/MotorDriver.pretty")(options "")(descr ""))
+  (lib (name "teensy")(type "KiCad")(uri "/home/aniket/Documents/2025SoccerOpen/MainPCB/teensy.pretty")(options "")(descr ""))
+  (lib (name "VNH")(type "KiCad")(uri "/home/aniket/Documents/2025SoccerOpen/MainPCB/LIB_VNH7070ASTR/VNH7070ASTR/KiCad/VNH.pretty")(options "")(descr ""))
+)
