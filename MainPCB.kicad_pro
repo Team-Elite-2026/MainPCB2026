@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 3.2,
-          "height": 5.6,
-          "width": 5.6
+          "drill": 0.0,
+          "height": 0.4,
+          "width": 0.635
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -459,6 +459,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -505,7 +506,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "Gerbers/",
       "pos_files": "",
       "specctra_dsn": "MainPCB.dsn",
       "step": "",
@@ -692,6 +693,114 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "P/N",
+          "name": "P/N",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PART-NUMBER",
+          "name": "PART-NUMBER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "POE",
+          "name": "POE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PORTS",
+          "name": "PORTS",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field5",
+          "name": "Field5",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part Description",
+          "name": "Part Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MOUNT",
+          "name": "MOUNT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field7",
+          "name": "Field7",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "USB",
+          "name": "USB",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VAux",
+          "name": "VAux",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "dni",
+          "name": "dni",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field8",
+          "name": "Field8",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DATASHEET-URL",
+          "name": "DATASHEET-URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Part",
+          "name": "LCSC Part",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DATA-RATE",
+          "name": "DATA-RATE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field4",
+          "name": "Field4",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LED",
+          "name": "LED",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field6",
+          "name": "Field6",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -738,7 +847,7 @@
       "workbook_filename": ""
     },
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "../../../Downloads/",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -753,6 +862,30 @@
     [
       "42b49b64-9684-402a-8d6b-7bff18ed389a",
       "Root"
+    ],
+    [
+      "ac1158dd-80be-40bd-b316-e38ba719d1b2",
+      "CM5"
+    ],
+    [
+      "79d02cf5-93ad-4b41-bff2-5e33356530ee",
+      "DSI_CSI"
+    ],
+    [
+      "71bbffbc-0884-4d98-b91c-e60081df4260",
+      "Ethernet"
+    ],
+    [
+      "f23741df-17e4-4e19-af7e-516c103cc4fd",
+      "HDMI"
+    ],
+    [
+      "d4ad80e3-8895-4127-9436-ec10d8ea93c5",
+      "IO"
+    ],
+    [
+      "7769c7ee-321e-4ff2-9f21-2fc00a9b3382",
+      "USB"
     ]
   ],
   "text_variables": {}
