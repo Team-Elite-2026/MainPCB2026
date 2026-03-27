@@ -10476,7 +10476,7 @@
 			)
 		)
 	)
-	(global_label "DIR4B"
+	(global_label "DIR5B"
 		(shape input)
 		(at 210.82 388.62 180)
 		(fields_autoplaced yes)
@@ -10762,7 +10762,7 @@
 			)
 		)
 	)
-	(global_label "DIR4A"
+	(global_label "DIR5A"
 		(shape input)
 		(at 212.09 381 180)
 		(fields_autoplaced yes)
@@ -10784,7 +10784,7 @@
 			)
 		)
 	)
-	(global_label "PWM4"
+	(global_label "PWM5"
 		(shape input)
 		(at 275.59 388.62 0)
 		(fields_autoplaced yes)
@@ -10912,28 +10912,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "ESC_PWM"
-		(shape input)
-		(at 215.9 63.5 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3bca461d-f0c8-4a1e-8de9-2b1d087feba6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 204.1459 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -12188,28 +12166,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LEDPulse"
-		(shape input)
-		(at 215.9 60.96 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c8897504-80e0-4a9c-8d5a-b2fe89c18231")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 204.2668 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
