@@ -4295,10 +4295,6 @@
 		(uuid "5fd3a47e-867a-40a1-901d-9ab95f42c30a")
 	)
 	(no_connect
-		(at 165.1 105.41)
-		(uuid "6566d1ef-0214-47b5-b677-d4b9c33720d1")
-	)
-	(no_connect
 		(at 351.79 171.45)
 		(uuid "6ca656d7-cb27-4ef7-a9ef-cb4bd461fb99")
 	)
@@ -4381,10 +4377,6 @@
 	(no_connect
 		(at 351.79 189.23)
 		(uuid "cb3885dd-cbc9-460d-bd91-7e2458cc8635")
-	)
-	(no_connect
-		(at 74.93 100.33)
-		(uuid "cf87ebe9-fef4-4930-8497-1bc7ae476e42")
 	)
 	(no_connect
 		(at 90.17 151.13)
@@ -9201,6 +9193,17 @@
 		)
 		(uuid "703b501e-647e-4edd-a70f-c8ab28397bd8")
 	)
+	(hierarchical_label "GPIO12"
+		(shape input)
+		(at 165.1 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7707af59-a6e0-4940-b1c8-e83851f76d42")
+	)
 	(hierarchical_label "1V8_CM4"
 		(shape output)
 		(at 73.66 176.53 180)
@@ -9409,6 +9412,17 @@
 			(justify left)
 		)
 		(uuid "f6e01d6e-389e-492f-af10-1be3446d07a1")
+	)
+	(hierarchical_label "GPIO13"
+		(shape input)
+		(at 74.93 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f852af28-0e3b-445a-b6a4-472306eb4fc0")
 	)
 	(hierarchical_label "HDMI_PI{HDMI}"
 		(shape input)
