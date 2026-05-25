@@ -8119,12 +8119,6 @@
 		(uuid "0f38f69f-bcea-43b4-af9f-d13d39defb81")
 	)
 	(junction
-		(at 532.13 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "10be9277-d7cd-4ac6-9915-b33c9f540853")
-	)
-	(junction
 		(at 270.51 368.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13388,30 +13382,6 @@
 			)
 		)
 	)
-	(global_label "12V"
-		(shape input)
-		(at 35.56 175.26 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "fa5ab5f1-31c9-4aff-95b0-2042c5c6f460")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 42.0528 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "PWM4"
 		(shape input)
 		(at 260.35 321.31 0)
@@ -14483,85 +14453,6 @@
 			(project "MainPCB"
 				(path "/42b49b64-9684-402a-8d6b-7bff18ed389a"
 					(reference "IC5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_Small")
-		(at 532.13 67.31 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1c44d4eb-c743-49f7-bdb8-a06a49015682")
-		(property "Reference" "TP101"
-			(at 530.86 66.0399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 530.86 68.5799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 527.05 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 527.05 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 532.13 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4427244a-4686-4876-9d19-fd969f0ba018")
-		)
-		(instances
-			(project "MainPCB"
-				(path "/42b49b64-9684-402a-8d6b-7bff18ed389a"
-					(reference "TP101")
 					(unit 1)
 				)
 			)
