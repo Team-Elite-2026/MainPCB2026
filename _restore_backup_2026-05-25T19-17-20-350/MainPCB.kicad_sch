@@ -18285,7 +18285,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom:Latch-Switch"
+		(property "Footprint" "SlideSW:SPDT_OS102011_CNK"
 			(at 132.08 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -22753,13 +22753,13 @@
 			(uuid "52d8c422-4ec3-4e2f-8c21-2facd6511509")
 		)
 		(pin "4"
-			(uuid "b1e4db79-2948-4da5-9fae-b3795a449977")
+			(uuid "b1e4db79-2948-4da5-9fae-b3795a449976")
 		)
 		(pin "1"
 			(uuid "f3e2d2b5-60b7-4f7a-b16a-5938dd8c0cdb")
 		)
 		(pin "3"
-			(uuid "ea0dd09c-4a10-4345-8e30-2ef2a166f5ab")
+			(uuid "ea0dd09c-4a10-4345-8e30-2ef2a166f5aa")
 		)
 		(instances
 			(project "MainPCB"
