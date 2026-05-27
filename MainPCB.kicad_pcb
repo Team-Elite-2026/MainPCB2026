@@ -2650,6 +2650,61 @@
 			(uuid "1470da6d-cbc9-4c4e-9926-bea26e2356d7")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/4646 BNO055 Stemma.step"
+			(offset
+				(xyz -12.7 -9.8 11)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
+		(model "${KICAD10_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x06_P2.54mm_Vertical.step"
+			(offset
+				(xyz 6.3 -7.5 11)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 -0 -90)
+			)
+		)
+		(model "${KICAD10_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.step"
+			(offset
+				(xyz 3.8 8 11)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 180 90)
+			)
+		)
+		(model "${KICAD10_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x04_P2.54mm_Vertical.step"
+			(offset
+				(xyz -3.7 8 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -90)
+			)
+		)
+		(model "${KICAD10_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x06_P2.54mm_Vertical.step"
+			(offset
+				(xyz -6.5 -7.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -90)
+			)
+		)
 	)
 	(footprint "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
 		(layer "F.Cu")
@@ -3868,7 +3923,7 @@
 			)
 		)
 		(embedded_fonts no)
-		(model "C:/Users/anike/Downloads/ANT11SECQE.stp"
+		(model "${KIPRJMOD}/ANT11SECQE.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5056,6 +5111,7 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x06_P2.54mm_Vertical.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5064,6 +5120,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/HC_05 Blue Tooth Module.stp"
+			(offset
+				(xyz -5.5 -6.4 19)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -90)
 			)
 		)
 	)
@@ -11713,7 +11780,7 @@
 			(uuid "a6f01f67-2d21-401d-885a-0fbd1aa3d152")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/anike/Documents/SoccerOpen2026/teensy.pretty/Teensy_4.1_Assembly.STEP"
+		(model "${KIPRJMOD}/teensy.pretty/Teensy_4.1_Assembly.STEP"
 			(offset
 				(xyz 0.25 0.5 8.262)
 			)
@@ -11726,7 +11793,7 @@
 		)
 		(model "${KICAD10_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x24_P2.54mm_Vertical.step"
 			(offset
-				(xyz -29 8 8.5)
+				(xyz -29.2 7.7 8.5)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -11737,7 +11804,7 @@
 		)
 		(model "${KICAD10_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x24_P2.54mm_Vertical.step"
 			(offset
-				(xyz 29.4 -7.25 8.5)
+				(xyz 29.3 -7.75 8.5)
 			)
 			(scale
 				(xyz 1 1 1)
