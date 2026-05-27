@@ -3675,7 +3675,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CM5IO:EDAC 690-019-298-412"
+		(property "Footprint" "HDMI-Conn:PHOENIX_1332073"
 			(at 212.725 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -3731,6 +3731,17 @@
 			)
 		)
 		(property "Part Description" "HDMI Connector, Right Angle, 19 Contacts, Receptacle, Surface Mount, Surface Mount Right Angle"
+			(at 212.09 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Current Connector" "https://www.digikey.com/en/products/detail/phoenix-contact/1332073/17940320"
 			(at 212.09 78.74 0)
 			(hide yes)
 			(show_name no)

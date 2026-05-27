@@ -11,4 +11,5 @@
 	(lib (name "RCJ-COM-MOD") (type "KiCad") (uri "${KIPRJMOD}/RCJ-COM-2024 (1)/RCJ-COM-MOD.pretty") (options "") (descr ""))
 	(lib (name "IP4292CZ10") (type "KiCad") (uri "${KIPRJMOD}/ul_IP4292CZ10-TBR-115/KiCADv6/footprints.pretty") (options "") (descr ""))
 	(lib (name "Ethernet") (type "KiCad") (uri "${KIPRJMOD}/WE-RJ45_7498111120AR/Ethernet.pretty") (options "") (descr ""))
+	(lib (name "HDMI-Conn") (type "KiCad") (uri "${KIPRJMOD}/HDMI-Conn.pretty") (options "") (descr ""))
 )

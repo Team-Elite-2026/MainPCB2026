@@ -216,7 +216,6 @@
         0.75,
         1.0,
         1.5,
-        1.7,
         2.0,
         2.5,
         3.5
@@ -653,7 +652,7 @@
       "netlist": "",
       "plot": "Gerbers/",
       "pos_files": "",
-      "specctra_dsn": "MainPCB.dsn",
+      "specctra_dsn": "../../Downloads/MainPCB.dsn",
       "step": "",
       "svg": "",
       "vrml": ""
@@ -1057,7 +1056,7 @@
         "uuid": "42b49b64-9684-402a-8d6b-7bff18ed389a"
       }
     ],
-    "used_designators": "",
+    "used_designators": "J2",
     "variants": []
   },
   "sheets": [
