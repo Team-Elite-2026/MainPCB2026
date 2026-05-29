@@ -8075,12 +8075,6 @@
 		(uuid "fcd4725b-2d88-4228-b1ff-b47aab8d78e6")
 	)
 	(junction
-		(at 648.97 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fd7ddfc9-d4f8-41b2-b010-7bfaf0359a4a")
-	)
-	(junction
 		(at 297.18 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8686,6 +8680,16 @@
 	)
 	(wire
 		(pts
+			(xy 626.11 46.99) (xy 626.11 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26e00023-92c3-4d86-b533-c2231a62c7cc")
+	)
+	(wire
+		(pts
 			(xy 646.43 107.95) (xy 687.07 107.95)
 		)
 		(stroke
@@ -9073,16 +9077,6 @@
 			(type default)
 		)
 		(uuid "4e571941-036c-46ee-ad0f-a841f3d8bb15")
-	)
-	(wire
-		(pts
-			(xy 648.97 49.53) (xy 648.97 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e996dce-4742-45e9-89e7-d66db8ec677c")
 	)
 	(wire
 		(pts
@@ -9533,16 +9527,6 @@
 			(type default)
 		)
 		(uuid "7bf21b99-6a58-400c-a286-31fb2dacf2e1")
-	)
-	(wire
-		(pts
-			(xy 648.97 59.69) (xy 648.97 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7cb5c383-3c1a-4252-94aa-74a7e38af42d")
 	)
 	(wire
 		(pts
@@ -10723,16 +10707,6 @@
 			(type default)
 		)
 		(uuid "fe3a35e3-ffea-49b7-a903-2052963b7d4f")
-	)
-	(wire
-		(pts
-			(xy 648.97 67.31) (xy 646.43 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe72c3f8-3daa-4995-b3a5-1cdf16f3869e")
 	)
 	(wire
 		(pts
@@ -19884,7 +19858,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Small")
-		(at 648.97 59.69 0)
+		(at 626.11 49.53 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -19895,7 +19869,7 @@
 		(dnp no)
 		(uuid "962c7ee3-c22c-4eb7-a62d-19d1d090e823")
 		(property "Reference" "TP103"
-			(at 647.7 58.4199 0)
+			(at 624.84 48.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19906,7 +19880,7 @@
 			)
 		)
 		(property "Value" "+3V3_PI"
-			(at 647.7 60.9599 0)
+			(at 624.84 50.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19917,7 +19891,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 643.89 59.69 0)
+			(at 621.03 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19928,7 +19902,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 643.89 59.69 0)
+			(at 621.03 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19939,7 +19913,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 648.97 59.69 0)
+			(at 626.11 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20953,7 +20927,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 648.97 49.53 0)
+		(at 626.11 46.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20964,7 +20938,7 @@
 		(fields_autoplaced yes)
 		(uuid "b7c6343a-b5bf-4111-8e53-f80775546af6")
 		(property "Reference" "#PWR0111"
-			(at 648.97 53.34 0)
+			(at 626.11 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20975,7 +20949,7 @@
 			)
 		)
 		(property "Value" "+3V3_PI"
-			(at 651.51 48.2599 0)
+			(at 628.65 45.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20986,7 +20960,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 648.97 49.53 0)
+			(at 626.11 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20997,7 +20971,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 648.97 49.53 0)
+			(at 626.11 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21008,7 +20982,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 648.97 49.53 0)
+			(at 626.11 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
