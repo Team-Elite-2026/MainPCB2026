@@ -243,6 +243,222 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector_Generic:Conn_01x04"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x04_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -1676,6 +1892,27 @@
 		)
 		(uuid "1c5dda37-89fa-4ba4-8a16-6f3e175c0258")
 	)
+	(text "FAN connector\n"
+		(exclude_from_sim no)
+		(at 149.225 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5ddb63e1-9202-4c5d-b89a-6d9a1e8e3171")
+	)
+	(text "R2 : Pullup added for Fans that don't \nhave a strong internal pullup "
+		(exclude_from_sim no)
+		(at 168.148 92.456 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e6b8d9cb-aee6-462d-967c-2eff763f0285")
+	)
 	(junction
 		(at 88.9 109.22)
 		(diameter 0)
@@ -1746,6 +1983,26 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 107.95) (xy 156.21 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cc0ab8f-ff5a-4856-a832-5dad59502fbe")
+	)
+	(wire
+		(pts
+			(xy 156.21 110.49) (xy 154.94 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fb32fe7-88a3-4c9c-b599-9d42f3728a3a")
+	)
+	(wire
+		(pts
 			(xy 127 59.69) (xy 120.65 59.69)
 		)
 		(stroke
@@ -1776,6 +2033,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 91.44) (xy 142.24 90.17)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "6d6e2555-3e4c-41d5-a318-265816f8a315")
+	)
+	(wire
+		(pts
 			(xy 71.12 87.63) (xy 71.12 91.44)
 		)
 		(stroke
@@ -1786,6 +2053,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 99.06) (xy 142.24 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c284dd6-059a-4718-9afe-8b6e2df3f478")
+	)
+	(wire
+		(pts
 			(xy 176.53 41.91) (xy 176.53 43.18)
 		)
 		(stroke
@@ -1793,6 +2070,16 @@
 			(type default)
 		)
 		(uuid "87fcfbd8-9030-4603-b61f-06f0b323637f")
+	)
+	(wire
+		(pts
+			(xy 144.78 113.03) (xy 156.21 113.03)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "a78456d4-6a5f-4de4-a730-24ee321163f5")
 	)
 	(wire
 		(pts
@@ -1836,6 +2123,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 110.49) (xy 154.94 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c51e972d-193e-4895-9b91-f07322ac869e")
+	)
+	(wire
+		(pts
 			(xy 114.3 62.23) (xy 114.3 69.85)
 		)
 		(stroke
@@ -1853,6 +2150,16 @@
 			(type default)
 		)
 		(uuid "d2e595c9-3716-4b1f-bc9d-e62910017368")
+	)
+	(wire
+		(pts
+			(xy 144.78 105.41) (xy 156.21 105.41)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "d378c26d-de36-44f4-ae8d-8826ae55379e")
 	)
 	(wire
 		(pts
@@ -1926,6 +2233,28 @@
 			(justify right)
 		)
 		(uuid "68345f7c-c6a2-4d5d-9840-8219afe35214")
+	)
+	(hierarchical_label "TACHO"
+		(shape input)
+		(at 144.78 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "966171bf-63fa-4776-9264-0a270f356847")
+	)
+	(hierarchical_label "PWM"
+		(shape input)
+		(at 142.24 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d0b2d325-c4ad-451e-883c-0d33919d0dca")
 	)
 	(hierarchical_label "PWR_BUT"
 		(shape input)
@@ -2176,6 +2505,84 @@
 			(project "MainPCB"
 				(path "/42b49b64-9684-402a-8d6b-7bff18ed389a/d4ad80e3-8895-4127-9436-ec10d8ea93c5"
 					(reference "#PWR0601")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 142.24 90.17 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1a333761-bddc-46fb-8150-e5fcc6b43726")
+		(property "Reference" "#PWR0519"
+			(at 142.24 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3_PI"
+			(at 138.684 85.598 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 142.24 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "69a2f29c-5168-476d-9759-52dc758a079a")
+		)
+		(instances
+			(project "MainPCB"
+				(path "/42b49b64-9684-402a-8d6b-7bff18ed389a/d4ad80e3-8895-4127-9436-ec10d8ea93c5"
+					(reference "#PWR0519")
 					(unit 1)
 				)
 			)
@@ -2469,6 +2876,83 @@
 			(project "MainPCB"
 				(path "/42b49b64-9684-402a-8d6b-7bff18ed389a/d4ad80e3-8895-4127-9436-ec10d8ea93c5"
 					(reference "C601")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 154.94 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3f570ec3-cf4e-4b17-bcdc-c76e97c9db8b")
+		(property "Reference" "#PWR010"
+			(at 154.94 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 155.067 122.5042 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 154.94 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2457e22e-10e0-4c38-ae95-e4ca53069abe")
+		)
+		(instances
+			(project "MainPCB"
+				(path "/42b49b64-9684-402a-8d6b-7bff18ed389a/d4ad80e3-8895-4127-9436-ec10d8ea93c5"
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -3260,6 +3744,148 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 161.29 107.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b47d8c50-9f05-4ab0-a772-0d982f12a5f5")
+		(property "Reference" "J14"
+			(at 159.385 116.205 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "JST_SHBM04B-SRSS-TB"
+			(at 158.75 118.745 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical"
+			(at 161.29 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 161.29 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" ""
+			(at 161.29 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" "SHBM04B-SRSS-TB"
+			(at 161.29 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" "SHBM04B-SRSS-TB"
+			(at 161.29 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field7" "JST"
+			(at 161.29 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Description" "4 pin vertical 1mm pitch connector"
+			(at 161.29 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "009d7174-197e-4ae4-9f6b-762d00cded20")
+		)
+		(pin "2"
+			(uuid "602d2ec1-3dcb-4a44-b61b-92e7cf121f61")
+		)
+		(pin "3"
+			(uuid "e81f1e9e-e847-49a5-9d93-efb79c698111")
+		)
+		(pin "4"
+			(uuid "b520c7be-9cc3-466b-b507-29babf438fc4")
+		)
+		(instances
+			(project "MainPCB"
+				(path "/42b49b64-9684-402a-8d6b-7bff18ed389a/d4ad80e3-8895-4127-9436-ec10d8ea93c5"
+					(reference "J14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 127 55.88 0)
 		(unit 1)
@@ -3559,6 +4185,142 @@
 			(project "MainPCB"
 				(path "/42b49b64-9684-402a-8d6b-7bff18ed389a/d4ad80e3-8895-4127-9436-ec10d8ea93c5"
 					(reference "#PWR0517")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 142.24 95.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d3e1aa98-ac71-4db5-a9ac-242fad8f6647")
+		(property "Reference" "R20"
+			(at 144.018 94.0816 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K 1%"
+			(at 144.018 96.393 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 140.462 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/mcr-e.pdf"
+			(at 142.24 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" "Farnell"
+			(at 142.24 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 142.24 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field7" "Rohm"
+			(at 142.24 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" "MCR01MZPF1002"
+			(at 142.24 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Description" "Resistor 10K M1005 1% 63mW"
+			(at 142.24 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b6aa65ab-2d3c-4482-be64-aaa2b812ed55")
+		)
+		(pin "2"
+			(uuid "f6e97094-d760-4350-a508-e83ff0d9d9c8")
+		)
+		(instances
+			(project "MainPCB"
+				(path "/42b49b64-9684-402a-8d6b-7bff18ed389a/d4ad80e3-8895-4127-9436-ec10d8ea93c5"
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -3867,6 +4629,84 @@
 			(project "MainPCB"
 				(path "/42b49b64-9684-402a-8d6b-7bff18ed389a/d4ad80e3-8895-4127-9436-ec10d8ea93c5"
 					(reference "SW601")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 144.78 105.41 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e9e7d46e-ec05-4a18-a29a-39285c838a09")
+		(property "Reference" "#PWR0518"
+			(at 144.78 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 144.78 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 144.78 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "596c1a8b-f379-4db4-b5d1-0333a30112f3")
+		)
+		(instances
+			(project "MainPCB"
+				(path "/42b49b64-9684-402a-8d6b-7bff18ed389a/d4ad80e3-8895-4127-9436-ec10d8ea93c5"
+					(reference "#PWR0518")
 					(unit 1)
 				)
 			)
